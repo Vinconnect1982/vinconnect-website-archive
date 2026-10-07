@@ -49,56 +49,76 @@ Paths: /services/starlink-installation
 
 The live page is still the 27 September version. Do not describe this rebuild as published.
 
-What is wrong with the live page:
+Order: hero with one real photo, three existing mount diagrams, matching job photos, a new install-path diagram, price table, six on-page answers, property planner, then the form.
+H1: Starlink installed properly. From $300.
+Primary action: Check My Install Price at /estimate. Phone 0408 559 555 is second.
+Remove /scenes/starlink-home.webp from this page.
+Do not redraw the J-mount, tripod, or wall diagrams. Do not add Mbps. Do not invent a mount price.
+Prices stay $300 single-storey and $550 double-storey. Travel is included in the price shown before booking.
 
-- It is a pricing note, not a decision page.
-- The only scene is the generated sunset render at /scenes/starlink-home.webp. Remove it from this page.
-- No real install photos, no trust line, and install day is not described.
-- Extras are buried in a paragraph. Double-storey is explained twice. Say $550 once.
-- No on-page FAQ. Objections sit under Helpful guides and a block called Latest pings. Ping is internal language.
-- Check My Install Price repeats about six times. The form does not ask storeys, roof type, or whether the kit has arrived.
-- Footer text lists UniFi, Starlink, Mercusys and UGREEN. Scrolling logos are TP-Link, Omada, Hikvision and HiLook.
-- Property planner sits in the middle of a simple roof install. Move it down.
+---
 
-Keep:
+## 2026-09-27 — Plain copy, and four image experiments reverted
 
-- $300 single-storey, $550 double-storey. Travel for the address is included in the price shown before booking.
-- VINCONNECT charges for the install, not the kit. Dish, router and plan stay in the customer's name.
-- Tile: under-tile J-mount, no tiles drilled. Colorbond: tripod tied to existing roof screws, no new holes. Fascia checked before use.
-- Sealed entry and brush plate. Primary action remains Check My Install Price at /estimate.
+Status: Shipped
+Who: Vince DeStefano
+Paths: camera, Starlink and suburb pages
 
-Agreed page order:
+Camera, Starlink and suburb pages now say what the work is. They do not tell the reader which page to use, and they do not call the page a conversation.
 
-1. Hero. Price, area, travel included, kit stays in their name. One real install photo.
-2. Which roof is yours. Reuse the three mount diagrams. Do not redraw them.
-3. Matching real photos. Two per mount type.
-4. New diagram: standard install path.
-5. Price table, then the estimator button.
-6. Still deciding. Six short answers on the page.
-7. More than one building. Property planner sits here.
-8. Form only for an odd roof, a factory, a relocate, or someone who will not use the estimator.
+Reverted the same day. Do not treat these as live:
 
-Hero copy:
+- Show the real kit on the marketing images.
+- Show the Starlink panel on real roof mounts.
+- Use the real Starlink Standard dish at the right size.
+- Ground the blue connection line on the equipment it joins.
 
-- Eyebrow: Starlink installation
-- H1: Starlink installed properly. From $300.
-- Sub: We mount the dish, seal the cable entry and set up the router where you use it. Based in Cranbourne. Southeast Melbourne, the Peninsula, Phillip Island, Bass Coast and Gippsland. Any travel for your address is included in the price you see before you book.
-- Trust line: Independent installer. Not a Starlink or SpaceX contractor. Kit, account and monthly plan stay in your name. Price shown before you book.
-- Buttons: Check My Install Price, then 0408 559 555. Cut extra price buttons to hero, after the price table, and footer.
+Finished job photos were not replaced by marketing scenes.
 
-Do not add Mbps. Do not invent a mount price. Double-storey is $550 total.
-Reuse /images/mounts/mount-j-hockey-stick-dark-800.webp, mount-tripod-dark-800.webp and mount-wall-dark-800.webp. Draw two new diagrams in the same dark grid style, without an Illustrative label. Do not put caravan diagrams on this page.
-Photos: eight to twelve real jobs from /projects. Suburb and mount type only.
+---
 
-Six on-page answers, each two lines, a guide link, and the same price button:
+## 2026-09-26 — One pricing engine
 
-1. Tile or Colorbond. Guides: /resources/choosing-a-starlink-mount and /starlink/roof-wall-and-tripod
-2. Trees. Guide: /resources/trees-and-starlink
-3. Buy the kit first. Guide: /resources/starlink-delivery-installation
-4. What is not included. Guides: /customer-help/standard-install-scope and /install-terms-and-conditions
-5. Blackout. Guide: /resources/starlink-power-outage
-6. Rental, new build, or house and shed. Guides: /vinready, /resources/house-or-shed, /resources/external-or-concealed-cabling, /resources/fixed-wireless-vs-starlink
+Status: Shipped
+Who: Vince DeStefano
+Paths: estimator, stored quote, admin, PDF, email
 
-Rename Latest pings to Recent notes, or drop it once the FAQ is on the page.
+Price the installed work, not an equipment figure. The kit is not the quote.
 
-Older shipped entries from 22–27 September 2026 remain in force: plain copy, one pricing engine, VINREADY, estimator mount choices, real project photos, Victoria coverage map, and the referral offer. Four marketing-image experiments on 27 September were reverted. Do not treat those as live.
+- Single-storey package $300. Travel included.
+- Double-storey supplement $250. Public total $550. Do not list both.
+- Cabinet placement is the same $150 as moving the router.
+- Internal walls stay a starting allowance.
+- An existing dish is a service visit and still needs a quote.
+
+---
+
+## 2026-09-24 — VINREADY published
+
+Status: Shipped
+Who: Vince DeStefano
+Paths: /vinready
+
+Builder product for Starlink-ready new homes. Builder cost and margin stay in the gated PDF. The pack is shown only after the form. The dish sits on a fascia pole above the gutter, clear of the roof, not mid-roof.
+
+---
+
+## 2026-09-23 — Estimator mounts and branded PDF
+
+Status: Shipped
+Who: Vince DeStefano
+Paths: /estimate
+
+Mount choices are in the estimator. A branded estimate PDF is sent. If server mail is blocked, enquiry email can send from the browser.
+
+---
+
+## 2026-09-22 — Site launch and foundation
+
+Status: Shipped
+Who: Vince DeStefano
+Paths: public site
+
+Repo history starts here. Direct installs are first. Referral offer is published. Menu was slimmed. Coverage is a Victoria network map. Project heroes are real job photos. First guides went up for trees, new homes, acreage, cabling and dish placement.
+Phone 0408 559 555. Email vince@vinconnect.com.au. Based in Cranbourne.
+Coverage: southeast Melbourne, Western Port, Mornington Peninsula, Phillip Island, Bass Coast and Gippsland.
