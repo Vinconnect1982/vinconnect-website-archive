@@ -1,7 +1,8 @@
 # VINCONNECT site changelog
 
 Source of truth for site changes. Live site: https://vinconnect.com.au
-Repo: https://github.com/Vinconnect1982/vinconnect-website
+Main repo: https://github.com/Vinconnect1982/vinconnect-website
+The old repo vinconnect-website-source is being moved into it. Never use -source as the base.
 
 Every person and every AI agent working on this site must use this file.
 
@@ -19,24 +20,24 @@ Every person and every AI agent working on this site must use this file.
 4. Do not delete or rewrite older entries.
 5. Commit the file in the same change as the work. A site change with no log entry is not finished.
 
-Entry shape:
+## Standing rules
 
-```
-## YYYY-MM-DD — short title
-Status: Shipped | Agreed, not shipped | Reverted
-Who: name or agent
-Paths: /page
-What changed:
-- one fact
-Do not:
-- one thing the next agent must not invent or undo
-```
+- Sharp corners only. No rounded or pill buttons.
+- Never put "Illustrative" or a similar label on an image. Existing mount diagrams may still carry that footer until they are redrawn. Do not add it to new work.
+- Never invent prices, speeds, warranties, insurance, job counts, street addresses, or Google ratings.
+- Never describe /admin, quote status, or Command Centre to a customer.
 
-## Do not publish
+---
 
-Work orders, invoices, customer names or addresses, Circl job numbers, licence or insurance numbers, unconfirmed prices, speeds, job counts, or a warranty that has not been written down here.
+## 2026-10-07 — Agent rules: main repo, sharp corners, no Illustrative label
 
-VINCONNECT is not affiliated with Starlink, SpaceX, Ubiquiti, TP-Link, Mercusys or UGREEN.
+Status: Agreed, not shipped as a page change
+Who: Vince
+Paths: AGENTS.md, docs/SITE-CHANGELOG.md
+
+Work only in Vinconnect1982/vinconnect-website. Do not use vinconnect-website-source as the base.
+New pages and buttons use sharp corners. Do not add rounded or pill buttons.
+Do not label images Illustrative.
 
 ---
 
@@ -46,7 +47,7 @@ Status: Agreed, not shipped
 Who: Vince, with the site audit
 Paths: /services/starlink-installation
 
-The live page is still the 27 September version. Do not describe this rebuild as published. Last public commit before this note was 27 September 2026.
+The live page is still the 27 September version. Do not describe this rebuild as published.
 
 What is wrong with the live page:
 
@@ -84,24 +85,10 @@ Hero copy:
 - Sub: We mount the dish, seal the cable entry and set up the router where you use it. Based in Cranbourne. Southeast Melbourne, the Peninsula, Phillip Island, Bass Coast and Gippsland. Any travel for your address is included in the price you see before you book.
 - Trust line: Independent installer. Not a Starlink or SpaceX contractor. Kit, account and monthly plan stay in your name. Price shown before you book.
 - Buttons: Check My Install Price, then 0408 559 555. Cut extra price buttons to hero, after the price table, and footer.
-- Meta title: Starlink Installation South-East Melbourne | VINCONNECT
-- Meta description: Starlink installation from $300 single-storey, $550 double-storey. Mount, sealed cable entry and router setup. Travel included. Cranbourne, southeast Melbourne, Peninsula and Gippsland.
-
-Standard install includes the sky check, agreed mount, visible clipped cable, one sealed entry with a brush plate, drip loop, router on that wall near power, setup, test and a short walk-through. About 2–3 hours if the site matches the booking. Kit stays sealed until the installer opens it. An adult must be there.
-
-Not included unless written into the booking: kit and plan, concealed cable, extra holes, shed Wi-Fi, cameras, electrical work, tree lopping, roof repairs, and a mount we supply.
 
 Do not add Mbps. Do not invent a mount price. Double-storey is $550 total.
-
-Reuse these diagrams:
-
-- /images/mounts/mount-j-hockey-stick-dark-800.webp
-- /images/mounts/mount-tripod-dark-800.webp
-- /images/mounts/mount-wall-dark-800.webp
-
-Draw two new diagrams in the same dark grid style. One is the standard install path. One is included versus not included. Do not put caravan diagrams on this page.
-
-Photos: eight to twelve real jobs from /projects, grouped by tile, Colorbond, flat roof or fascia, double-storey, rental, and one commercial roof. Suburb and mount type only.
+Reuse /images/mounts/mount-j-hockey-stick-dark-800.webp, mount-tripod-dark-800.webp and mount-wall-dark-800.webp. Draw two new diagrams in the same dark grid style, without an Illustrative label. Do not put caravan diagrams on this page.
+Photos: eight to twelve real jobs from /projects. Suburb and mount type only.
 
 Six on-page answers, each two lines, a guide link, and the same price button:
 
@@ -114,101 +101,4 @@ Six on-page answers, each two lines, a guide link, and the same price button:
 
 Rename Latest pings to Recent notes, or drop it once the FAQ is on the page.
 
----
-
-## 2026-09-27 — Plain copy, and four image experiments reverted
-
-Status: Shipped
-Who: Vince DeStefano
-Paths: camera, Starlink and suburb pages
-
-Camera, Starlink and suburb pages now say what the work is. They do not tell the reader which page to use, and they do not call the page a conversation.
-
-Reverted the same day. Do not treat these as live:
-
-- Show the real kit on the marketing images.
-- Show the Starlink panel on real roof mounts.
-- Use the real Starlink Standard dish at the right size.
-- Ground the blue connection line on the equipment it joins.
-
-Finished job photos were not replaced by marketing scenes.
-
----
-
-## 2026-09-26 — One pricing engine
-
-Status: Shipped
-Who: Vince DeStefano
-Paths: estimator, stored quote, admin, PDF, email
-
-Price the installed work, not an equipment figure. The kit is not the quote.
-
-- Single-storey package $300. Travel included.
-- Double-storey supplement $250. Public total $550. Do not list both.
-- Cabinet placement is the same $150 as moving the router.
-- Internal walls stay a starting allowance.
-- An existing dish is a service visit and still needs a quote.
-
----
-
-## 2026-09-24 — VINREADY published
-
-Status: Shipped
-Who: Vince DeStefano
-Paths: /vinready
-
-Builder product for Starlink-ready new homes.
-
-- Builder cost and margin stay in the gated PDF. Not on the public page.
-- The pack is shown only after the form.
-- Pages follow the builder pack: same photos, same section order, light layout.
-- Dish sits on a fascia pole above the gutter, clear of the roof. Not mid-roof.
-- Pack uses Australian job photos and a rectangular dish.
-- Latest project photos and Event Link images went out with this publish.
-
----
-
-## 2026-09-23 — Estimator mounts and branded PDF
-
-Status: Shipped
-Who: Vince DeStefano
-Paths: /estimate
-
-- Mount choices are in the estimator.
-- A branded estimate PDF is sent.
-- If server mail is blocked, enquiry email can send from the browser.
-
----
-
-## 2026-09-22 — Site launch and foundation
-
-Status: Shipped
-Who: Vince DeStefano
-Paths: public site
-
-Repo history starts with "Initial VINCONNECT website source". There is no older commit.
-
-- Phone 0408 559 555. Email vince@vinconnect.com.au. Based in Cranbourne.
-- Coverage: southeast Melbourne, Western Port, Mornington Peninsula, Phillip Island, Bass Coast and Gippsland.
-- Direct installs are first. Circl is not the front door.
-- Referral offer published. One month free for an eligible new customer. Install price is separate from the kit. https://starlink.com/?referral=RC-DF-12576466-54681-7&app_source=share
-- Menu slimmed. Event Link and VIN Gear have their own nav items.
-- Homepage coverage box replaced with a Victoria network map. Service-area hub uses it. Path: /service-areas
-- Estimator aligned to published install prices. Travel is calculated on the server.
-- Privacy wording corrected. Path: /privacy
-- Project heroes rebuilt from real installations. Invented heroes removed. Path: /projects
-- Nyora uses the real roof-mount photo. Somerville tripod filename corrected.
-- First guides published: trees, new homes, acreage, cabling, dish placement.
-- Transparent logo restored. Google, Facebook and Instagram links added.
-- Facebook: https://www.facebook.com/people/Vinconnect-Starlink-Solutions/61589183530269/
-- Copy speaks plainly. A box is not a button. Do not say an enquiry was emailed if it was not.
-
----
-
-## Internal only
-
-Do not describe these to a customer.
-
-- Dark control room on /admin. Dashboard is not cached.
-- Quote status, photos and follow-up are stored on the live site.
-- Command Centre plan is in docs/COMMAND_CENTRE.md. The plan commit did not by itself change the public site.
+Older shipped entries from 22–27 September 2026 remain in force: plain copy, one pricing engine, VINREADY, estimator mount choices, real project photos, Victoria coverage map, and the referral offer. Four marketing-image experiments on 27 September were reverted. Do not treat those as live.
